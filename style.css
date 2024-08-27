@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5fC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+body {
+    height: 100vh;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 10px;
+}
+
+.section-right {
+    margin-right: 40px;
+}
+
+.section-left {
+    margin-left: 40px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+}
+::placeholder{color: #0A3871;}
+    .text-area-focus{
+        outline: none;
+    }
+
+.botones {
+    display: flex;
+    margin-left: auto; 
+    justify-content: center;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-encriptar:hover {
+    background-color: #08427b; /* Cambia el color de fondo */
+    border-color: #08427b; /* Cambia el color del borde */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    transition: all 0.3s ease; /* Añade una transición suave */
+}
+
+.btn-desencriptar {
+    background-color: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 38px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover {
+    background-color: #c0d4e8; /* Cambia el color de fondo */
+    border-color: #08427b; /* Cambia el color del borde */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    transition: all 0.3s ease; /* Añade una transición suave */
+}
+
+.info-container {
+    margin-bottom: 10px;
+    display: flex;
+   
+    align-items: center;
+    
+}
+
+.exclamation-simbol {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.copiar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar:hover {
+    background-color: #08427b; /* Cambia el color de fondo */
+    border-color: #08427b; /* Cambia el color del borde */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    transition: all 0.3s ease; /* Añade una transición suave */
+}
+
+.copiar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.mensaje {
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;  
+    padding-left: 10px;
+    padding-top: 5px;
+}
